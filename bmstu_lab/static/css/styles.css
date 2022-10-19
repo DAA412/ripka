@@ -1,0 +1,13 @@
+.text
+{
+    border: 4px double black;
+    background: aquamarine;
+    padding: 10px;
+}
+#img
+{
+     width: 500px;
+    height: 350px;
+    border: 4px double black;
+    border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Список тортиков{% endblock %}
+
+{% block content %}
+<ul>
+    {% for cake in data.cakes %}
+       {% include 'qw.html' with elem=cake %}
+    {% empty %}
+        <li>Список пуст</li>
+    {% endfor %}
+</ul>
+{% endblock %}
